@@ -46,6 +46,7 @@ X_new = np.array([[1], [2]])
 X_new_b = np.c_[np.ones((2, 1)), X_new]
 y_predict_grad = X_new_b.dot(theta_grad)
 plt.plot(X_new, y_predict_grad, 'b-')
-
+print(X_new)
+print(y_predict)
 
 plt.show()
